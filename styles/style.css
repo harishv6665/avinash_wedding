@@ -1,0 +1,195 @@
+/* ::: RESET CLASSES STARTS HERE ::: */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ::: RESET CLASSES ENDS HERE ::: */
+
+
+
+
+/* ::: WELCOME-SEC CLASSES STARTS HERE ::: */
+
+.welcome-section {
+    background: url("../images/bg1.jpg") no-repeat;
+    background-position: 50% 0%;
+}
+
+/*.welcome-section__bg {*/
+    /*position: absolute;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*background: url(../images/p-bg.png);*/
+    /*background-position: 50% 0%;*/
+    /*background-repeat: no-repeat;*/
+    /*z-index: 9;*/
+/*}*/
+
+.welcome-section__title {
+    font-size: 88px;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    padding-left: 140px;
+    position: relative;
+    z-index:99;
+}
+
+/* ::: WELCOME-SEC CLASSES ENDS HERE ::: */
+
+
+
+
+/* ::: BOY-GIRL-NAME-SEC CLASSES STARTS HERE ::: */
+
+.boy-name-section {
+
+}
+
+.girl-name-section {
+    background-image: url(../images/bgc2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.name-card {
+    position: absolute;
+    width: 560px;
+    height: 380px;
+    box-shadow: 0 0 120px 0 rgba(1, 1, 1, 0.12);
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name-card__title {
+    font-size: 88px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+
+.name-card__title.left {
+    color: #E91E63;
+    transform: translate(-90px, 25px);
+}
+
+.name-card__title.right {
+    color: #3F51B5;
+    transform: translate(410px, 25px);
+}
+
+.name-seperator-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 65px);
+    font-size: 120px;
+}
+
+.name-section__bg-asset {
+    position: absolute;
+    height: 450px;
+    width: 350px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.name-section__bg-asset.left {
+    left: 0;
+    background: url(../images/bg3a.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.name-section__bg-asset.right {
+    right: 0;
+    background: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 95% 170%;
+}
+
+/* ::: BOY-GIRL-NAME-SEC CLASSES ENDS HERE ::: */
+
+
+
+
+/* ::: SAVE-DATE-SEC CLASSES STARTS HERE ::: */
+
+.save-date-section {
+    background-image: url(../images/bgc1.jpg);
+    background-repeat: no-repeat;
+}
+
+.save-date-card {
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    box-shadow: 0 0 120px 0 rgba(1, 1, 1, 0.12);
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+}
+
+.save-date-card.bg-asset {
+    box-shadow: none;
+    background-image: url(../images/watercolor.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: top right;
+    top: calc(50% + -80px);
+    left: calc(50% + 200px);
+}
+
+.save-date-card__title {
+    font-size: 80px;
+    font-weight: 800;
+    text-align: right;
+    position: absolute;
+    right: -50px;
+    top: 15px;
+    color: #E91E63;
+}
+
+.save-date-card__content__title {
+    float: left;
+    width: 170px;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.save-date-card__content__text {
+    float: left;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.save-date-card__content {
+    width: calc(100% + 250px);
+    left: -80px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.save-date-card__content__text .bold {
+    font-weight: 600;
+    margin-bottom: 11px;
+    display: inline-block;
+}
+
+/* ::: SAVE-DATE-SEC CLASSES ENDS HERE ::: */
