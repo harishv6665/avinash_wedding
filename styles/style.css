@@ -89,8 +89,13 @@
 
 .name-card.left {
     background: url(../images/girl.png) no-repeat;
-    background-size: contain;
     background-position: left bottom;
+    background-size: contain;
+}
+.name-card.right {
+    background: url(../images/boy.png) no-repeat;
+    background-position: right bottom;
+    background-size: contain;
 }
 
 .name-card-text {
